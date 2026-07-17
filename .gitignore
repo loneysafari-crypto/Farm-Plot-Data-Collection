@@ -1,0 +1,14 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local test data / exports — don't commit real submissions or personal data
+*.csv
+*.geojson
+!forms/*.geojson
+test-data/
+exports/
+
+# Any local copy of the form with credentials pasted in for testing
+tool/kobo-geofence.local.html
